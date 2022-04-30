@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floats and Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 800px;
+            margin:30px auto;
+        }
+        .box{
+            background-color: antiquewhite;
+            border: 1px solid grey;
+            padding: 10px;
+            margin: 10px;
+        }
+        .box p{
+            
+            text-align: justify;
+        }
+       
+        #box-2{
+            float: left;
+            width: 65%;
+        }
+        #box-3{
+            float: right;
+            width: 30%;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box-1" class="box">
+            <h2>Heading-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quo accusamus suscipit voluptates repellendus soluta qui ipsam expedita hic doloribus!</p>
+        </div>
+        <div id="box-2" class="box">
+            <h2>Heading-2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quo accusamus suscipit voluptates repellendus soluta qui ipsam expedita hic doloribus!</p>
+        </div>
+        <div id="box-3" class="box">
+            <h2>Heading-3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quo accusamus suscipit voluptates repellendus soluta qui ipsam expedita hic doloribus!</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
